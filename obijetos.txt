@@ -1,0 +1,41 @@
+for i=0, i=nomes.length,i++ {
+	let x=[]
+	alunos= {"nome": nomes[i], "nota " : notas[i]}
+	x= alunos.push()
+}
+
+x= [ {"nome": maria, "nota " : 5.8},{"nome": joão, "nota " : 7.5},
+
+
+1) a partir de uma array de nomes e outra de notas, crie obijetos da classe Aluno com os atributos "nome" e "nota" e adicione-os a um array de objetos. utilize o loop for para percorrer os arrays.
+
+2) percorra o array dos objetos e exiba apenas o nome dos alunos.
+
+3) percorra o array novamente para adicionar o atributo "situação" a cada objeto. A situação do aluno será "Aprovado" se a nota for maior ou igual a 7, ou "reprovado" caso contrario.utilize o operador terminario na construção dessa função.
+
+4) crie um mapa(obijeyo mapa) a partir do seu array de objetos.
+
+5) utilize o metodo get() para obter a nota do 5º elemento do mapa.
+
+6) utilize o metodo delete() para remover o 4º elemento do mapa.
+
+7) utilize o metodo has() para verificar se existe algum aluno chamado "jon snow" neste mapa.
+
+8) mostre todas as chaves do mapa utilizando o método keys().
+
+9) mostre todos os valores do mapa utilizando o metodo values().
+
+10) mostre as chaves e seus respectivos valores utilizando o método entries()
+
+
+
+
+
+
+
+
+
+
+
+
+
