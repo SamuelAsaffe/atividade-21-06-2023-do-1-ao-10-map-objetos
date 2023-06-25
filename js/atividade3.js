@@ -1,4 +1,6 @@
-//   2) percorra o array dos objetos e exiba apenas o nome dos alunos.
+// 3) percorra o array novamente para adicionar o atributo "situação" a cada objeto. 
+//A situação do aluno será "Aprovado" se a nota for maior ou igual a 7, 
+//ou "reprovado" caso contrario.utilize o operador terminario na construção dessa função.
 
 let nomes = ['sivir', 'silvio santos', 'shivana', 'samuel', 'samara',
     'mathews', 'marta', 'marlon', 'mario', 'marilia', 'maria', 'maria',
