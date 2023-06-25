@@ -13,7 +13,7 @@ x= [ {"nome": maria, "nota " : 5.8},{"nome": joão, "nota " : 7.5},
 
 3) percorra o array novamente para adicionar o atributo "situação" a cada objeto. A situação do aluno será "Aprovado" se a nota for maior ou igual a 7, ou "reprovado" caso contrario.utilize o operador terminario na construção dessa função.
 
-4) crie um mapa(obijeyo mapa) a partir do seu array de objetos.
+4) crie um mapa(objeto mapa) a partir do seu array de objetos.
 
 5) utilize o metodo get() para obter a nota do 5º elemento do mapa.
 
