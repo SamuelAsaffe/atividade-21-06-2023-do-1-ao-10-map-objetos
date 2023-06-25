@@ -14,13 +14,16 @@ for (let i = 0; i < nomes.length; i++) {
     alunoM = {
         nome: nomes[i],
         nota: notas[i],
-        // situacao: notas[i] >= 7.0 ? "Aprovado" : "Reprovado"
+        // tarefa 3 com o operador ternário {
+        situacao: notas[i] >= 7.0 ? "Aprovado" : "Reprovado"
+        //}
     }
     alunoA.push(alunoM);
 
 }
 //   tarefa 1
-// console.log(alunos)
+// console.log(alunoA)
+// console.log(JSON.stringify(alunoA, null, 2));
 // console.log(notas.length)
 // console.log(nomes.length)
 // console.log(notas)
