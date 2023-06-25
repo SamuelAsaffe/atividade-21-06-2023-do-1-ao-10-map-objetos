@@ -24,15 +24,13 @@ for (let i = 0; i < nomes.length; i++) {
 // console.log(notas)
 
 //   tarefa 2
-//alunos.forEach((alunoM)=>console.log(alunoM["nome"]))
-// function nomesA() {
+// alunoA.forEach((alunoM)=>console.log(alunoM["nome"]))
+// function somenteNomesA() {
 //     for (let i = 0; i < nomes.length; i++) {
 //         console.log(alunoA[i]["nome"])
-
 //     }
-
 // }
-// nomesA()
+// somenteNomesA()
 
 
 
