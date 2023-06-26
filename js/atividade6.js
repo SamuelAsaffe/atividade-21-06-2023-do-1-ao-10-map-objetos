@@ -49,15 +49,17 @@ for (let i =0;i <nomes.length;i++) {
 //     alunosMM[chave] = alunoA[i]
 // }
 //mostra da seguinte maneira
-{
-A :{ nome: 'sivir', nota: 3.5, situacao: 'Reprovado' },
-B :{ nome: 'silvio santos', nota: 9.3, situacao: 'Aprovado' },
-C :{ nome: 'shivana', nota: 10, situacao: 'Aprovado' },
-D :{ nome: 'samuel', nota: 4.3, situacao: 'Reprovado' }
-}
+// {
+// A :{ nome: 'sivir', nota: 3.5, situacao: 'Reprovado' },
+// B :{ nome: 'silvio santos', nota: 9.3, situacao: 'Aprovado' },
+// C :{ nome: 'shivana', nota: 10, situacao: 'Aprovado' },
+// D :{ nome: 'samuel', nota: 4.3, situacao: 'Reprovado' }
+// }
 
 
 // tarefa 5 
+// console.log(alunosMM.get("aluno 5").nota)
 
-
-console.log(alunosMM.get("aluno 5").nota)
+// tarefa 6
+alunosMM.delete("aluno 3")
+console.log(alunosMM)
