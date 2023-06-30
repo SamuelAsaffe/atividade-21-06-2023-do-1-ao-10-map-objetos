@@ -6,9 +6,9 @@ let nomes = ['sivir', 'silvio santos', 'shivana', 'samuel', 'samara',
 let notas = [3.5, 9.3, 10, 4.3, 5.6, 7.9, 10.0, 4.6, 7.5, 6.0, 3.7, 9.8, 6.4, 5.3, 9.2, 6.7, 6.6, 8.3]
 let alunoM = {}
 let alunoA = []
-//let maca = {}
+
 for (let i = 0; i < nomes.length; i++) {
-    // notas.push((Math.random() * 10) + 1.0).toFixed(1)
+    // notas.push((Math.random() * 10) + 1.0).toFixed(1)    criar notas aleatórias
     alunoM = {
         nome: nomes[i],
         nota: notas[i],
@@ -18,7 +18,7 @@ for (let i = 0; i < nomes.length; i++) {
 
 }
 //   tarefa 1
-// console.log(alunos)
+console.log(alunoA)
 // console.log(notas.length)
 // console.log(nomes.length)
 // console.log(notas)
